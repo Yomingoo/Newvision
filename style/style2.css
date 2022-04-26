@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #121212;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+form{
+	margin-top: 20px;
+	background-color: #202020;
+	padding: 40px 60px;
+	border-radius: 10px;
+	min-width: 300px;
+}	
+
+form h1{
+	color: white;
+	text-align: center;
+}
+
+form .social-media{
+	margin-top: -10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+
+form .social-media p{
+	padding: 5px;
+	margin-left: 10px;
+	border: 1px solid #545454;
+	border-radius: 100%;
+	width: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+form p.choose-email{
+	text-align: center;
+}
+
+form .inputs{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.input{
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f2f2f2;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+.inscription{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #878787;
+}
+
+span{
+	color: #eb7371;
+}
+
+a
+{ 
+ text-decoration:none;
+ color: white; 
+} 
+
+form button{
+	padding: 15px 25px;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	background-color: #2B2B2B;
+}
+
+img{
+	position: absolute;
+	top: 40px;
+	width: 40px;
+	left: 567px	;
+}
